@@ -1,0 +1,52 @@
+footer{
+  background: #464A4B;
+  clear: both;
+  
+  p{
+    font-size: .8em;
+  }
+  h4, p{
+    color: white;
+    margin: 0;
+  }
+  h4{
+    margin: 20px 0 5px 0;
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: flex-end;
+    a{
+      display: block;
+      margin: 30px 0 0 20px;
+    }
+  }
+  
+  .license{
+    align-items: flex-end;
+    background: #CCC;
+    clear: both;
+    display: flex;
+    height: 20px;
+    overflow: auto;
+    padding: 20px 0;
+    width: 100%;
+    .grid-6{
+      margin: 0;
+    }
+    p{
+      color: #464A4B; 
+    }
+    .documents{
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+    }
+    a{
+      color: #464A4B;
+      display: inline-block;
+      font-size: .835em;
+      margin: 0 0 0 18px;
+    }
+  }
+}

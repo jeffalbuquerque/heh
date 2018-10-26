@@ -1,0 +1,38 @@
+a{
+  &.btn{
+    background-color: #FCAF17;
+    color: white;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+    }
+    &-arround{
+      border-radius: 10px;
+
+      &-color{
+        background: #0BC0F7;
+        border: none;
+        color: white;
+        &:hover{
+          background: #01A0D0;
+          color: white;
+        }
+      }
+    }
+    &-large{
+      font-size: 1.1em;
+      padding: 20px 80px;
+
+
+      @media only screen and (max-width: 550px) {
+        display: block;
+        padding: 20px 80px;
+        width: auto;
+      }
+
+    }
+  }
+}

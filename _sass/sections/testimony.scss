@@ -1,0 +1,29 @@
+.testimony{
+  background: url(images/testimony.jpg) no-repeat;
+  background-size: cover;
+  height: 420px;
+  margin: 0 0 80px 0;
+  
+  @media only screen and(max-width: 550px){
+    background: url(images/testimony.jpg) no-repeat -90px 0px;
+    clear: both;
+  }
+
+  h2{
+    color: white;
+    margin: 100px 0 40px 0;
+    
+    @media only screen and (max-width: 550px) {
+      font-size: 1.2em;
+    }
+  }
+
+  p{
+    &:first-child{
+      font-weight: bold;
+    }
+    color: white;
+    margin: 0;
+    font-size: .9em;
+  }
+}

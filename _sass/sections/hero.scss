@@ -1,0 +1,39 @@
+.hero{
+  background: rgb(18,28,54); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(0,0,0,1) 0%, rgba(244,208,16,0.7) 100%) ,url(images/background-hero.jpg) no-repeat  ; /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(0,0,0,1) 0%,rgba(244,208,16,0.7) 100%) ,url(images/background-hero.jpg) no-repeat ; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(0,0,0,1) 0%,rgba(244,208,16,0.7) 100%) ,url(images/background-hero.jpg) no-repeat ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121C36', endColorstr='#A0FFED',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  min-height: 75vh;
+  padding: 200px 0 0 0;
+  
+  @media only screen and (max-width: 550px) {
+    display: block;
+    min-height: 80vh;
+    padding: 160px 0 0 0;
+  }
+
+  p{
+    font-size: 1.6em;
+    margin: 0 0 40px 0;
+
+    span{
+      display: block;
+      font-size: 1.4em;
+      margin-top: 20px;
+    }
+    
+    @media only screen and (max-width: 550px) {
+      margin: 40px 0 40px 0;
+    }
+  }
+
+  a,p{
+    color: white;
+  }
+
+}
